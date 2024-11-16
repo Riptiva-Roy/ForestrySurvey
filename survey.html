@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forestry Survey</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <style>
+        /* Add some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .space-y-4 { margin-bottom: 1rem; }
+        .space-y-2 { margin-bottom: 0.5rem; }
+        .space-y-6 { margin-bottom: 1.5rem; }
+        .space-y-8 { margin-bottom: 2rem; }
+        .min-h-\[100px\] { min-height: 100px; }
+        .w-full { width: 100%; }
+        .ml-2 { margin-left: 0.5rem; }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="survey.js"></script>
+    <script type="text/babel">
+        ReactDOM.render(<ForestrySurvey />, document.getElementById('root'));
+    </script>
+</body>
+</html>
