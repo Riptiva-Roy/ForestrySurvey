@@ -74,27 +74,27 @@ const results = {
     A: {
         title: "Engineer: oprah wimphry ",
         description: "-Expertise: Environmnetal Engineering.\n -Tech Interests: Geographic Information Systems (GIS).\n -Development Approach: Embracing the natural highs and lows.\n -Decision-Making: The immediate effects and maintaining balance.\n -Downtime: baking sour dow.\n -Motivation: Achievement and recognition for my work.",
-        image: "images/A"  // Path to the image for result A
+        image: "/images/A.png"  // Path to the image for result A
     },
     B: {
         title: "Engineer: Jessica Alba  ",
         description: "-Expertise: Power Systems.\n -Tech Interests: Tree Growth and Yield Models (e.g., FVS, WoodPro).\n -Development Approach: Striving to achieve an optimal balance in all areas.\n -Decision-Making: The potential for significant benefits and growth.\n -Downtime: Enjoys creative hobbies.\n -Motivation: Building strong relationships and connections with others.",
-        image: "images/B"  // Path to the image for result B
+        image: "/images/B.png"  // Path to the image for result B
     },
     C: {
         title: "Engineer: Leonardo DiCaprio",
         description: "-Expertise: Thermal Systems\n -Tech Interests: Forest Management Software (e.g., Forest Pro, Trimble).\n -Development Approach: Sees progress as gradual.\n -Decision-Making: How it fits into the bigger picture of my life.\n -Downtime: Enjoys outdoor activities.\n -Motivation:Working in a dynamic and challenging environment.",
-        image: "images/C"  // Path to the image for result C
+        image: "/images/C.png"  // Path to the image for result C
     },
     D: {
         title: "Engineer: Chris Hemsworth",
         description: "-Expertise: Software Development\n -Tech Interests: Coding (e.g., Python, Java, C++).\n -Development Approach: Strives for rapid improvement.\n -Decision-Making: Chooses the best possible outcome\n -Downtime: Socializes and relaxes.\n -Motivation: Motivated by learning and personal growth",
-        image: "images/D"  // Path to the image for result D
+        image: "/images/D.png"  // Path to the image for result D
     },
     E: {
         title: "Eningeer: Greta thunberg",
         description: "-Expertise: Sustainability and Environmental Impact\n -Tech Interests: Climate modeling, carbon accounting tools.\n -Development Approach: Values the journey and gradual progress.\n -Decision-Making: Focuses on long-term impact.\n -Downtime: Sports.\n -Motivation: Driven by environmental causes and sustainable change",
-        image: "images/E"  // Path to the image for result E
+        image: "/images/E.png"  // Path to the image for result E
     }
 };
 
